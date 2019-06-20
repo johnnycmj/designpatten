@@ -1,4 +1,4 @@
-package com.cmj.newdesign.pattern.proxy.dynamic;
+package com.cmj.patterns.proxy.dynamic;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

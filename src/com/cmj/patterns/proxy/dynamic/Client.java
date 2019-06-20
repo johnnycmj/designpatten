@@ -1,7 +1,8 @@
-package com.cmj.newdesign.pattern.proxy.dynamic;
+package com.cmj.patterns.proxy.dynamic;
 
-import com.cmj.newdesign.pattern.proxy.RealSubject;
-import com.cmj.newdesign.pattern.proxy.Subject;
+
+import com.cmj.patterns.proxy.base.RealSubject;
+import com.cmj.patterns.proxy.base.Subject;
 
 import java.lang.reflect.Proxy;
 
@@ -24,8 +25,6 @@ public class Client {
         Subject subjectProxy = (Subject)Proxy.newProxyInstance(classLoader,new Class[]{Subject.class},proxy);
 
         subjectProxy.request();
-
-
 
     }
 }
