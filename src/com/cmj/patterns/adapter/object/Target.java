@@ -1,4 +1,4 @@
-package com.cmj.patterns.proxy;
+package com.cmj.patterns.adapter.object;
 
 /**
  * @Author :  chenmj
@@ -6,5 +6,7 @@ package com.cmj.patterns.proxy;
  * @Since :  0.1.0
  * @Description
  */
-public class Test {
+public interface Target {
+
+    void request();
 }
