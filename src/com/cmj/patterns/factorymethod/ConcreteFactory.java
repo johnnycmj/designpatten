@@ -1,15 +1,12 @@
-package com.cmj.newdesign.pattern.factory;
+package com.cmj.patterns.factorymethod;
 
 /**
- * <pre>
- *     author: chmj
- *     time  : 2018/1/30
- *     desc  :
- * </pre>
+ * @Author :  chenmj
+ * @Created :  2019/7/3
+ * @Since :  0.1.0
+ * @Description
  */
-
-public class ConcreateFactory extends Factory {
-
+public class ConcreteFactory extends Factory {
     @Override
     public <T extends Product> T createProduct(Class<T> c) {
         Product product = null;
